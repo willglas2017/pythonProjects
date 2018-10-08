@@ -112,6 +112,7 @@ def main(odds):
                     a = deck.pop(0)
                     bj.inputCard(a)
     		# deal dealer on soft 17
+            
             while sum(dealer_cards) < 18:
                 exit = False
                 # check for soft 17
